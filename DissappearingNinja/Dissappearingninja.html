@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" type="text/css" href="disappearingninja.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("img").click(function(){
+          $(this).hide("slow");
+        });
+        $("button").click(function(){
+          $("img").show();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Disappearing Ninja</h1>
+    <img src = "http://braincrook.com/wp-content/uploads/2015/04/Ninja1024x1024-1024x1024.png">
+    <img src = "http://braincrook.com/wp-content/uploads/2015/04/Ninja1024x1024-1024x1024.png">
+    <img src = "http://braincrook.com/wp-content/uploads/2015/04/Ninja1024x1024-1024x1024.png">
+    <img src = "http://braincrook.com/wp-content/uploads/2015/04/Ninja1024x1024-1024x1024.png">
+    <img src = "http://braincrook.com/wp-content/uploads/2015/04/Ninja1024x1024-1024x1024.png">
+       <button>Restore</button>
+  </body>
+</html>
